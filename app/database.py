@@ -3,7 +3,7 @@ import sqlite3
 import uuid
 from datetime import datetime, timezone
 
-DB_PATH = Path(__file__).resolve().parents[2] / "brandpilot.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "brandpilot.db"
 
 
 def connect():
